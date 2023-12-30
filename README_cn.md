@@ -2,6 +2,8 @@
 
 [English](README.md) | 中文 | [Italiano](README_it.md)
 
+该版本对API调用进行了一些修改，使得Block变得宽容。
+
 与 Gemini Pro 聊天的最简 WebUI。
 
 体验网址： [Gemini Pro Chat](https://www.geminiprochat.com)
