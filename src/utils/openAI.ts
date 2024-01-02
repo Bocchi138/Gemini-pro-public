@@ -16,9 +16,9 @@ export const startChatAndSendMessageStream = async(history: ChatMessage[], newMe
       parts: msg.parts.map(part => part.text).join(''), // Join parts into a single string
     })),
      generationConfig: {
-    temperature: 0.95,
+    temperature: 0.8,
     top_p: 1,
-    top_k": 32,
+    top_k: 32,
     maxOutputTokens: 2048,
     },
     safetySettings :[
