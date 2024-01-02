@@ -17,7 +17,7 @@ export const startChatAndSendMessageStream = async(history: ChatMessage[], newMe
     })),
      generationConfig: {
     temperature: 0.8,
-    top_p: 1,
+    top_p: 0.75,
     top_k: 16,
     maxOutputTokens: 2048,
     },
